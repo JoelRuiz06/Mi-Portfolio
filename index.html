@@ -26,14 +26,6 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: MyPage
-  * Template URL: https://bootstrapmade.com/mypage-bootstrap-personal-template/
-  * Updated: Sep 20 2025 with Bootstrap v5.3.8
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body class="index-page">
@@ -47,8 +39,6 @@
       </div>
 
       <a href="index.html" class="logo d-flex align-items-center justify-content-center">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.webp" alt=""> -->
         <h1 class="sitename">Joel Ruiz</h1>
       </a>
 
@@ -68,6 +58,7 @@
     <div class="social-links text-center">
       <a href="https://www.linkedin.com/in/joel-jos%C3%A9-ruiz-marcote-b8b716395/" class="linkedin"><i class="bi bi-linkedin"></i></a>
       <a href="https://github.com/JoelRuiz06" class="github"><i class="bi bi-github"></i></a>
+      <a href="assets/cv_joel_ruiz.pdf" class="github"><i class="bi bi-file-pdf"></i></a>
     </div>
   </header>
 
@@ -659,7 +650,7 @@
                   <img src="assets/img/portfolio/domwars.png" class="img-fluid" alt="DOMWARS" loading="lazy">
                   <div class="portfolio-overlay">
                     <div class="portfolio-actions">
-                      <a href="assets/img/portfolio/domwars.png" class="glightbox action-btn preview-btn" title="DOM WARS"><i class="bi bi-eye"></i></a>
+                      <a href="assets/img/portfolio/domwars.png" class="glightbox action-btn preview-btn" title="DOM WARS"><i class="bi bi-eye"></i></a> <!--MODAL HERE-->
                       <a href="https://github.com/LemonArte/DOM-WARS" class="action-btn details-btn" title="Ver proyecto"><i class="bi bi-arrow-up-right"></i></a>
                     </div>
                   </div>
@@ -680,7 +671,7 @@
                   <img src="assets/img/portfolio/FashionStore.png" class="img-fluid" alt="FashionStore" loading="lazy">
                   <div class="portfolio-overlay">
                     <div class="portfolio-actions">
-                      <a href="assets/img/portfolio/FashionStore.png" class="glightbox action-btn preview-btn" title="FashionStore"><i class="bi bi-eye"></i></a>
+                      <a href="assets/img/portfolio/FashionStore.png" class="glightbox action-btn preview-btn" title="FashionStore"><i class="bi bi-eye"></i></a> <!--MODAL HERE-->
                       <a href="https://github.com/JoelRuiz06/Byte-Wizards" class="action-btn details-btn" title="Ver proyecto"><i class="bi bi-arrow-up-right"></i></a>
                     </div>
                   </div>
@@ -701,7 +692,7 @@
                   <img src="assets/img/portfolio/violencia_genero.png" class="img-fluid" alt="violencia genero" loading="lazy">
                   <div class="portfolio-overlay">
                     <div class="portfolio-actions">
-                      <a href="assets/img/portfolio/violencia_genero.png" class="glightbox action-btn preview-btn" title="Violencia de Género"><i class="bi bi-eye"></i></a>
+                      <a href="assets/img/portfolio/violencia_genero.png" class="glightbox action-btn preview-btn" title="Violencia de Género"><i class="bi bi-eye"></i></a> <!--MODAL HERE-->
                       <a href="https://github.com/JoelRuiz06/violencia-genero" class="action-btn details-btn" title="Ver proyecto"><i class="bi bi-arrow-up-right"></i></a>
                     </div>
                   </div>
@@ -722,7 +713,7 @@
                   <img src="assets/img/portfolio/PetSwipe.png" class="img-fluid" alt="PetSwipe" loading="lazy">
                   <div class="portfolio-overlay">
                     <div class="portfolio-actions">
-                      <a href="assets/img/portfolio/PetSwipe.png" class="glightbox action-btn preview-btn" title="PetSwipe"><i class="bi bi-eye"></i></a>
+                      <a href="assets/img/portfolio/PetSwipe.png" class="glightbox action-btn preview-btn" title="PetSwipe"><i class="bi bi-eye"></i></a> <!--MODAL HERE-->
                       <a href="https://github.com/jmtapia96/PetSwipe" class="action-btn details-btn" title="Ver proyecto"><i class="bi bi-arrow-up-right"></i></a>
                     </div>
                   </div>
@@ -810,6 +801,48 @@
 
     </section><!-- /Services Section -->
 
+    <!-- End Services Section -->
+
+    <!-- Carousel Section -->
+<section id="carousel" class="section light-background">
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Galería</h2>
+    <p>Algunas capturas de mis proyectos.</p>
+  </div>
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+
+      <div class="carousel-inner rounded-4 overflow-hidden">
+        <div class="carousel-item active">
+          <img src="assets/img/portfolio/domwars.png" class="d-block w-100" alt="DOMWARS">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/portfolio/FashionStore.png" class="d-block w-100" alt="FashionStore">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/portfolio/violencia_genero.png" class="d-block w-100" alt="Violencia de Género">
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+
+      <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+  </div>
+</section>
+
     <!-- Contact Section -->
     <section id="contact" class="contact section">
       <!-- Section Title -->
@@ -838,7 +871,9 @@
                 </div>
                 <div class="detail-content">
                   <span class="detail-label">Email</span>
-                  <span class="detail-value">joelruizm06@gmail.com</span>
+                  <span class="detail-value">
+                    <a href="mailto:joelruizm06@gmail.com">joelruizm06@gmail.com</a>
+                  </span>
                 </div>
               </div>
 
@@ -848,7 +883,9 @@
                 </div>
                 <div class="detail-content">
                   <span class="detail-label">Teléfono</span>
-                  <span class="detail-value">+34 644 977 209</span>
+                  <span class="detail-value">
+                    <a href="tel:+34 644977209">+34 644 977 209</a>
+                  </span>
                 </div>
               </div>
 
@@ -858,7 +895,9 @@
                 </div>
                 <div class="detail-content">
                   <span class="detail-label">Dirección</span>
-                  <span class="detail-value">Paseo José Fernandez Vega, 43, 2A<br>Brenes 41310, Sevilla, España</span>
+                  <span class="detail-value">
+                    <a href="https://www.google.com/maps/place/Paseo+Jos%C3%A9+Fernandez+Vega,+43,+2A,+Brenes+41310,+Sevilla,+Espa%C3%B1a/@37.3830919,-5.9834397,17z/data=!3m1!4b1!4m5!3m4!1s0x94c7b5e5c3f5b7c5:0x1f2e3b0c0d0e0f10!8m2!3d37.3830919!4d-5.9834397">Paseo José Fernandez Vega, 43, 2A<br>Brenes 41310, Sevilla, España</a>
+                  </span>
                 </div>
               </div>
 
@@ -872,38 +911,36 @@
                 <h3>Envia tu mensaje</h3>
               </div>
 
-              <form>
-
+              <form action="mailto:joelruizm06@gmail.com?subject=Contacto%20desde%20mi%20portfolio" method="post" enctype="text/plain">
                 <div class="row">
                   <div class="col-md-6">
                     <div class="form-group">
-                      <label>Nombre</label>
-                      <input type="text" name="name" required="">
+                      <label for="name" class="form-label">Nombre</label>
+                      <input type="text" id="name" name="Nombre" class="form-control" required>
                     </div>
                   </div>
                   <div class="col-md-6">
                     <div class="form-group">
-                      <label>Email</label>
-                      <input type="email" name="email" required="">
+                      <label for="email" class="form-label">Email</label>
+                      <input type="email" id="email" name="Email" class="form-control" required>
                     </div>
                   </div>
                 </div>
 
                 <div class="form-group">
-                  <label>Asunto</label>
-                  <input type="text" name="subject" required="">
+                  <label for="subject" class="form-label">Asunto</label>
+                  <input type="text" id="subject" name="Asunto" class="form-control" required>
                 </div>
 
                 <div class="form-group">
-                  <label for="projectMessage">Mensaje</label>
-                  <textarea name="message" id="projectMessage" rows="5" required=""></textarea>
+                  <label for="projectMessage" class="form-label">Mensaje</label>
+                  <textarea name="Mensaje" id="projectMessage" rows="5" class="form-control" required></textarea>
                 </div>
 
                 <button type="submit" class="submit-btn">
                   <span>Enviar mensaje</span>
                   <i class="bi bi-arrow-right"></i>
                 </button>
-
               </form>
 
             </div>
@@ -923,6 +960,7 @@
       <div class="social-links d-flex justify-content-center">
         <a href="https://www.linkedin.com/in/joel-jos%C3%A9-ruiz-marcote-b8b716395/"><i class="bi bi-linkedin"></i></a>
         <a href="https://github.com/JoelRuiz06"><i class="bi bi-github"></i></a>
+        <a href="assets/cv_joel_ruiz.pdf"><i class="bi bi-file-pdf"></i></a>
       </div>
       <div class="container">
         <div class="copyright">

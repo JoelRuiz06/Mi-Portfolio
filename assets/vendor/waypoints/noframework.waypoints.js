@@ -1,9 +1,4 @@
-/*!
-Waypoints - 4.0.1
-Copyright © 2011-2016 Caleb Troughton
-Licensed under the MIT license.
-https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
-*/
+
 (function() {
   'use strict'
 
@@ -646,7 +641,6 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
     }
   }
 
-  /* Adapted from jQuery 1.x offset() */
   NoFrameworkAdapter.prototype.offset = function() {
     if (!this.element.ownerDocument) {
       return null
@@ -742,7 +736,6 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
   }
 
   NoFrameworkAdapter.isEmptyObject = function(obj) {
-    /* eslint no-unused-vars: 0 */
     for (var name in obj) {
       return false
     }
