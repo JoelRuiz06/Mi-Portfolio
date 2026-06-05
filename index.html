@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Joel Ruiz | Desarrollador Web</title>
+  <meta name="description" content="Portfolio digital de Joel Ruiz, desarrollador web en formación.">
+  <meta name="keywords" content="portfolio, desarrollador web, Bootstrap 5, HTML, CSS, JavaScript, Joel Ruiz">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: MyPage
+  * Template URL: https://bootstrapmade.com/mypage-bootstrap-personal-template/
+  * Updated: Sep 20 2025 with Bootstrap v5.3.8
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header dark-background d-flex flex-column justify-content-between">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="header-top">
+      <div class="profile-img">
+        <img src="assets/img/profile/foto_curriculum.png" alt="Foto de Joel Ruiz" class="img-fluid">
+      </div>
+
+      <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.webp" alt=""> -->
+        <h1 class="sitename">Joel Ruiz</h1>
+      </a>
+
+    </div>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i> Sobre mi</a></li>
+        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resumen</a></li>
+        <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
+        <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Servicios</a></li>
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contacto</a></li>
+      </ul>
+    </nav>
+
+    <div class="social-links text-center">
+      <a href="https://www.linkedin.com/in/joel-jos%C3%A9-ruiz-marcote-b8b716395/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      <a href="https://github.com/JoelRuiz06" class="github"><i class="bi bi-github"></i></a>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row align-items-center">
+          <div class="col-lg-6 order-2 order-lg-1">
+            <div class="hero-content">
+              <h1 data-aos="fade-up" data-aos-delay="200">
+                Técnico microinformático &amp;
+                <span class="accent-text">Estudiante de DAW</span>
+              </h1>
+              <p class="hero-description" data-aos="fade-up" data-aos-delay="300">
+                Creo sitios web funcionales y responsive con Bootstrap 5, HTML, CSS y JavaScript.
+              </p>
+              <div class="hero-actions" data-aos="fade-up" data-aos-delay="400">
+                <a href="#portfolio" class="btn-primary">Ver proyectos</a>
+                <a href="#contact" class="btn-secondary">Contactar</a>
+              </div>
+              <div class="hero-stats" data-aos="fade-up" data-aos-delay="500">
+                <div class="stat-item">
+                  <span class="stat-number">5+</span>
+                  <span class="stat-label">Proyectos completados</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-number">3+</span>
+                  <span class="stat-label">Meses de experiencia</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-number">10+</span>
+                  <span class="stat-label">Clientes satisfechos</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 order-1 order-lg-2">
+            <div class="hero-image" data-aos="fade-up" data-aos-delay="300">
+              <div class="image-wrapper">
+                <img src="assets/img/profile/foto_curriculum.png" alt="Foto de Joel Ruiz" class="img-fluid main-image">
+                <div class="floating-card card-1" data-aos="fade-up" data-aos-delay="600">
+                  <i class="bi bi-palette"></i>
+                  <span>HTML & CSS</span>
+                </div>
+                <div class="floating-card card-2" data-aos="fade-up" data-aos-delay="700">
+                  <i class="bi bi-code-square"></i>
+                  <span>Frontend</span>
+                </div>
+                <div class="floating-card card-3" data-aos="fade-up" data-aos-delay="800">
+                  <i class="bi bi-camera"></i>
+                  <span>Sistemas</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+
+            <div class="intro-header text-center" data-aos="fade-up" data-aos-delay="150">
+              <h1>Hola, soy Joel Ruiz</h1>
+              <p class="subtitle">Técnico Microinformático &amp; Estudiante de DAW</p>
+            </div>
+
+            <div class="main-content-wrapper">
+              <div class="row align-items-start">
+
+                <div class="col-lg-4" data-aos="fade-right" data-aos-delay="200">
+                  <div class="profile-section">
+                    <div class="profile-image-container">
+                      <img src="assets/img/profile/foto_curriculum.png" class="img-fluid" alt="Foto de Joel Ruiz">
+                    </div>
+                    <div class="profile-meta">
+                      <div class="location">
+                        <i class="bi bi-geo-alt"></i>
+                        <span>Sevilla, España</span>
+                      </div>
+                      <div class="status">
+                        <div class="status-indicator"></div>
+                        <span>Disponible para proyectos</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-8" data-aos="fade-left" data-aos-delay="250">
+                  <div class="content-area">
+
+                    <div class="story-block">
+                      <p class="lead-text">Soy un estudiante de DAW de Sevilla al que le apasiona la informática, el aprendizaje continuo y crear cosas útiles con tecnología. 
+                                          Mi interés por la tecnología me llevó a la programación y al desarrollo web después de formarme en Sistemas Microinformáticos y Redes. 
+                                          Me gusta aprender, colaborar con otras personas y seguir mejorando mis conocimientos día a día.</p>
+
+                      <p>Mi formación en programación y desarrollo web me ha permitido profundizar también en el diseño de interfaces y la experiencia de usuario.</p>
+                    </div>
+
+                    <div class="expertise-grid">
+                      <div class="expertise-item" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="expertise-icon">
+                          <i class="bi bi-lightbulb"></i>
+                        </div>
+                        <div class="expertise-content">
+                          <h4>HTML & CSS</h4>
+                          <p>Diseño de sitios web funcionales y responsive</p>
+                        </div>
+                      </div>
+
+                      <div class="expertise-item" data-aos="zoom-in" data-aos-delay="350">
+                        <div class="expertise-icon">
+                          <i class="bi bi-phone"></i>
+                        </div>
+                        <div class="expertise-content">
+                          <h4>Java</h4>
+                          <p>Desarrollo de aplicaciones con Java</p>
+                        </div>
+                      </div>
+
+                      <div class="expertise-item" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="expertise-icon">
+                          <i class="bi bi-graph-up"></i>
+                        </div>
+                        <div class="expertise-content">
+                          <h4>Sistemas</h4>
+                          <p>Automatización de tareas y despliegue de aplicaciones</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="philosophy-quote" data-aos="fade-up" data-aos-delay="450">
+                      <div class="quote-mark">"</div>
+                      <p>El desarrollo web es un proceso de aprendizaje constante, mejora continua y atención al detalle.</p>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="bottom-section" data-aos="fade-up" data-aos-delay="500">
+              <div class="row align-items-center">
+                <div class="col-lg-6">
+                  <div class="collaboration-text">
+                    <h3>Creo proyectos útiles y visualmente cuidados</h3>
+                    <p>Si quieres mejorar una idea existente o empezar un proyecto desde cero, me encantaría ayudarte a darle forma.</p>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="action-buttons">
+                    <a href="#portfolio" class="btn-custom primary">Ver proyectos</a>
+                    <a href="#contact" class="btn-custom secondary">Iniciar proyecto</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats section light-background">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+
+            <div class="stats-grid">
+              <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+                <div class="stat-number">
+                  <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
+                </div>
+                <p class="stat-label">Proyectos completados</p>
+              </div>
+
+              <div class="stat-item" data-aos="fade-up" data-aos-delay="300">
+                <div class="stat-number">
+                  <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter"></span>
+                </div>
+                <p class="stat-label">Habilidades adquiridas</p>
+              </div>
+
+              <div class="stat-item" data-aos="fade-up" data-aos-delay="400">
+                <div class="stat-number">
+                  <span data-purecounter-start="0" data-purecounter-end="20" data-purecounter-duration="1" class="purecounter"></span>+
+                </div>
+                <p class="stat-label">Proyectos realizados</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Stats Section -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Habilidades</h2>
+        <p>Me gusta aprender y aplicar mis conocimientos en proyectos reales.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="intro-content text-center mb-5" data-aos="fade-up" data-aos-delay="150">
+              <p class="lead-text">Soy una persona proactiva, responsable y con muchas ganas de seguir aprendiendo.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="skills-container">
+
+              <div class="skill-category skills-animation" data-aos="fade-up" data-aos-delay="200">
+                <div class="category-header">
+                  <h3 class="category-title">Experiencia técnica</h3>
+                  <p class="category-subtitle">Habilidades de programación y desarrollo web</p>
+                </div>
+                <div class="skills-list">
+                  <div class="skill-row">
+                    <div class="skill-info">
+                      <span class="skill-name">HTML & CSS</span>
+                      <span class="skill-percentage">92%</span>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="skill-row">
+                    <div class="skill-info">
+                      <span class="skill-name">SQL</span>
+                      <span class="skill-percentage">75%</span>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="skill-row">
+                    <div class="skill-info">
+                      <span class="skill-name">Java</span>
+                      <span class="skill-percentage">65%</span>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skill-category skills-animation" data-aos="fade-up" data-aos-delay="250">
+                <div class="category-header">
+                  <h3 class="category-title">Diseño de sitios web</h3>
+                  <p class="category-subtitle">Diseño visual y de experiencia de usuario</p>
+                </div>
+                <div class="skills-list">
+                  <div class="skill-row">
+                    <div class="skill-info">
+                      <span class="skill-name">Bootstrap</span>
+                      <span class="skill-percentage">94%</span>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="94" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="skill-row">
+                    <div class="skill-info">
+                      <span class="skill-name">JavaScript</span>
+                      <span class="skill-percentage">86%</span>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="skill-row">
+                    <div class="skill-info">
+                      <span class="skill-name">Angular</span>
+                      <span class="skill-percentage">78%</span>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skill-category skills-animation" data-aos="fade-up" data-aos-delay="300">
+                <div class="category-header">
+                  <h3 class="category-title">Gestión de proyectos</h3>
+                  <p class="category-subtitle">Gestión de proyectos y negocios</p>
+                </div>
+                <div class="skills-list">
+                  <div class="skill-row">
+                    <div class="skill-info">
+                      <span class="skill-name">Gestión de proyectos</span>
+                      <span class="skill-percentage">90%</span>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="skill-row">
+                    <div class="skill-info">
+                      <span class="skill-name">Gestión de equipos</span>
+                      <span class="skill-percentage">87%</span>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="skill-row">
+                    <div class="skill-info">
+                      <span class="skill-name">Planificación estratégica</span>
+                      <span class="skill-percentage">83%</span>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="83" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="skills-sidebar">
+
+              <div class="expertise-highlight" data-aos="fade-up" data-aos-delay="350">
+                <div class="highlight-icon">
+                  <i class="bi bi-trophy"></i>
+                </div>
+                <h4 class="highlight-title">Meses de experiencia</h4>
+                <div class="experience-number">
+                  <span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1" class="purecounter"></span>
+                  <span class="experience-label">Meses</span>
+                </div>
+                <p class="highlight-description">Dedicado a aprender y demostrar mis conocimientos con los demás.</p>
+              </div>
+
+              <div class="technologies-section" data-aos="fade-up" data-aos-delay="400">
+                <h5 class="tech-title">Tecnologías principales</h5>
+                <div class="tech-stack">
+                  <div class="tech-item">
+                    <i class="bi bi-filetype-js"></i>
+                    <span>JavaScript</span>
+                  </div>
+                  <div class="tech-item">
+                    <i class="bi bi-code-square"></i>
+                    <span>Angular</span>
+                  </div>
+                  <div class="tech-item">
+                    <i class="bi bi-server"></i>
+                    <span>SQL</span>
+                  </div>
+                  <div class="tech-item">
+                    <i class="bi bi-cloud"></i>
+                    <span>GitHub</span>
+                  </div>
+                  <div class="tech-item">
+                    <i class="bi bi-palette"></i>
+                    <span>Figma</span>
+                  </div>
+                  <div class="tech-item">
+                    <i class="bi bi-diagram-3"></i>
+                    <span>Docker</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="achievements-section" data-aos="fade-up" data-aos-delay="450">
+                <h5 class="achievements-title">Logros recientes</h5>
+                <div class="achievement-list">
+                  <div class="achievement-item">
+                    <div class="achievement-date">2025</div>
+                    <div class="achievement-text">Título Sistemas Microinformáticos y Redes</div>
+                  </div>
+                  <div class="achievement-item">
+                    <div class="achievement-date">2025</div>
+                    <div class="achievement-text">Certificación en IA generativa y productividad de Google Cloud.</div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Skills Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resumen</h2>
+        <p>Soy una persona motivada, curiosa y con ganas de seguir aprendiendo en el mundo del desarrollo web.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row align-items-start">
+          <div class="col-lg-5" data-aos="fade-right" data-aos-delay="200">
+            <div class="professional-journey">
+              <div class="section-intro">
+                <div class="icon-wrapper">
+                  <i class="bi bi-briefcase-fill"></i>
+                </div>
+                <h2>Experiencia profesional</h2>
+              </div>
+
+              <div class="experience-timeline">
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-content">
+                    <div class="position-meta">
+                      <span class="timeline-year">2025</span>
+                    </div>
+                    <h3>Técnico informático</h3>
+                    <h4>Andalucía Emprende</h4>
+                    <p>Resolución de incidencias técnicas.</p>
+                    <div class="key-achievements">
+                      <span class="achievement-tag">Resolutivo</span>
+                      <span class="achievement-tag">Montaje y reparación de equipos</span>
+                      <span class="achievement-tag">Administración de sistemas</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="350">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-content">
+                    <div class="position-meta">
+                      <span class="timeline-year">2024</span>
+                    </div>
+                    <h3>Técnico informático</h3>
+                    <h4>Elettromik</h4>
+                    <p>Atención y soporte técnico en tienda de informática.</p>
+                    <div class="key-achievements">
+                      <span class="achievement-tag">Mantenimiento de ordenadores</span>
+                      <span class="achievement-tag">Mantenimiento de periféricos</span>
+                      <span class="achievement-tag">Montaje de equipos informáticos</span>
+                      <span class="achievement-tag">Instalación de sistemas operativos</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="400">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-content">
+                    <div class="position-meta">
+                      <span class="timeline-year">2024</span>
+                    </div>
+                    <h3>Técnico Desarrollador web</h3>
+                    <h4>Dolphincity</h4>
+                    <p>Creación de sitios web en WordPress</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7" data-aos="fade-left" data-aos-delay="200">
+            <div class="education-skills">
+              <div class="section-intro">
+                <div class="icon-wrapper">
+                  <i class="bi bi-mortarboard-fill"></i>
+                </div>
+                <h2>Educación y habilidades</h2>
+              </div>
+
+              <div class="education-grid">
+                <div class="education-card primary" data-aos="zoom-in" data-aos-delay="300">
+                  <div class="education-header">
+                    <div class="degree-icon">
+                      <i class="bi bi-award"></i>
+                    </div>
+                    <div class="degree-info">
+                      <h3>Técnico Superior en Desarrollo de Aplicaciones Web</h3>
+                      <p class="institution">IES Jacarandá</p>
+                      <span class="graduation-year">2025 - Actualidad</span>
+                    </div>
+                  </div>
+                  <div class="education-details">
+                    <p>Formación en programación, desarrollo web y bases de datos.</p>
+                  </div>
+                </div>
+
+                <div class="education-card" data-aos="zoom-in" data-aos-delay="350">
+                  <div class="education-header">
+                    <div class="degree-icon">
+                      <i class="bi bi-laptop"></i>
+                    </div>
+                    <div class="degree-info">
+                      <h3>Técnico en Sistemas Microinformáticos y Redes</h3>
+                      <p class="institution">IES Axati</p>
+                      <span class="graduation-year">2023 - 2025</span>
+                    </div>
+                  </div>
+                  <div class="education-details">
+                    <p>Formación en sistemas, redes y administración de servidores.</p>
+                    <div class="honors">
+                        <span class="honor-badge">Nota: 9.4</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="certification-section" data-aos="fade-up" data-aos-delay="400">
+                  <h4>Certificaciones profesionales</h4>
+                  <div class="certifications">
+                    <div class="cert-item">
+                      <i class="bi bi-patch-check"></i>
+                      <div class="cert-details">
+                        <span class="cert-name">Certificación en IA generativa y productividad de Google Cloud</span>
+                        <span class="cert-provider">Google Cloud • 2025</span>
+                      </div>
+                    </div>
+                    <div class="cert-item">
+                      <i class="bi bi-patch-check"></i>
+                      <div class="cert-details">
+                        <span class="cert-name">Certificación en creatividad e innovación para emprender</span>
+                        <span class="cert-provider">Winnova • 2023</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Resume Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <div class="filters-wrapper" data-aos="fade-up" data-aos-delay="200">
+            <ul class="portfolio-filters isotope-filters">
+              <li data-filter="*" class="filter-active">Todos</li>
+              <li data-filter=".filter-Web">Web</li>
+              <li data-filter=".filter-JavaScript">JavaScript</li>
+              <li data-filter=".filter-HTML_CSS">HTML/CSS</li>
+            </ul>
+          </div>
+
+          <div class="row gy-5 portfolio-container isotope-container" data-aos="fade-up" data-aos-delay="300">
+
+            <div class="col-lg-6 portfolio-item isotope-item filter-JavaScript">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/domwars.png" class="img-fluid" alt="DOMWARS" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/domwars.png" class="glightbox action-btn preview-btn" title="DOM WARS"><i class="bi bi-eye"></i></a>
+                      <a href="https://github.com/LemonArte/DOM-WARS" class="action-btn details-btn" title="Ver proyecto"><i class="bi bi-arrow-up-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <div class="portfolio-meta">
+                    <span class="portfolio-category">Web JavaScript puro</span>
+                  </div>
+                  <h3 class="portfolio-title">DOMWARS</h3>
+                  <p class="portfolio-description">Proyecto web desarrollado con JavaScript puro, sin usar frameworks.</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-6 portfolio-item isotope-item filter-Web">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/FashionStore.png" class="img-fluid" alt="FashionStore" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/FashionStore.png" class="glightbox action-btn preview-btn" title="FashionStore"><i class="bi bi-eye"></i></a>
+                      <a href="https://github.com/JoelRuiz06/Byte-Wizards" class="action-btn details-btn" title="Ver proyecto"><i class="bi bi-arrow-up-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <div class="portfolio-meta">
+                    <span class="portfolio-category">Tienda de Ropa Full Stack</span>
+                  </div>
+                  <h3 class="portfolio-title">FashionStore</h3>
+                  <p class="portfolio-description">Aplicación web full stack desarrollada con React y base de datos H2.</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-6 portfolio-item isotope-item filter-HTML_CSS">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/violencia_genero.png" class="img-fluid" alt="violencia genero" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/violencia_genero.png" class="glightbox action-btn preview-btn" title="Violencia de Género"><i class="bi bi-eye"></i></a>
+                      <a href="https://github.com/JoelRuiz06/violencia-genero" class="action-btn details-btn" title="Ver proyecto"><i class="bi bi-arrow-up-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <div class="portfolio-meta">
+                    <span class="portfolio-category">Web HTML5 & CSS</span>
+                  </div>
+                  <h3 class="portfolio-title">Violencia de Género</h3>
+                  <p class="portfolio-description">Página web estática desarrollada con HTML5 y CSS.</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-6 portfolio-item isotope-item filter-HTML_CSS">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/PetSwipe.png" class="img-fluid" alt="PetSwipe" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/PetSwipe.png" class="glightbox action-btn preview-btn" title="PetSwipe"><i class="bi bi-eye"></i></a>
+                      <a href="https://github.com/jmtapia96/PetSwipe" class="action-btn details-btn" title="Ver proyecto"><i class="bi bi-arrow-up-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <div class="portfolio-meta">
+                    <span class="portfolio-category">Web HTML5 & CSS</span>
+                  </div>
+                  <h3 class="portfolio-title">PetSwipe</h3>
+                  <p class="portfolio-description">Página web creada con HTML5 y CSS.</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Qué puedo hacer</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-5">
+
+          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
+            <div class="service-item">
+              <div class="service-icon">
+                <i class="bi bi-palette"></i>
+              </div>
+              <div class="service-content">
+                <h3>Desarrollo web</h3>
+                <p>Diseño y desarrollo de sitios web funcionales, limpios y adaptados al usuario.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="250">
+            <div class="service-item">
+              <div class="service-icon">
+                <i class="bi bi-code-slash"></i>
+              </div>
+              <div class="service-content">
+                <h3>Diseño responsive</h3>
+                <p>Diseño de interfaces responsive adaptadas a móvil, tablet y escritorio.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="300">
+            <div class="service-item">
+              <div class="service-icon">
+                <i class="bi bi-phone"></i>
+              </div>
+              <div class="service-content">
+                <h3>Bootstrap y maquetación</h3>
+                <p>Maquetación de páginas con Bootstrap 5 y su sistema de componentes.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="350">
+            <div class="service-item">
+              <div class="service-icon">
+                <i class="bi bi-megaphone"></i>
+              </div>
+              <div class="service-content">
+                <h3>Soluciones web</h3>
+                <p>Soluciones web para proyectos académicos y personales, con estructura clara y buen diseño.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contacto</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5">
+
+            <div class="info-item">
+              <div class="info-icon">
+                <i class="bi bi-chat-dots"></i>
+              </div>
+              <div class="info-content">
+                <h4>Contáctame</h4>
+              </div>
+            </div>
+
+            <div class="contact-details">
+
+              <div class="detail-item">
+                <div class="detail-icon">
+                  <i class="bi bi-envelope-open"></i>
+                </div>
+                <div class="detail-content">
+                  <span class="detail-label">Email</span>
+                  <span class="detail-value">joelruizm06@gmail.com</span>
+                </div>
+              </div>
+
+              <div class="detail-item">
+                <div class="detail-icon">
+                  <i class="bi bi-telephone-outbound"></i>
+                </div>
+                <div class="detail-content">
+                  <span class="detail-label">Teléfono</span>
+                  <span class="detail-value">+34 644 977 209</span>
+                </div>
+              </div>
+
+              <div class="detail-item">
+                <div class="detail-icon">
+                  <i class="bi bi-geo-alt-fill"></i>
+                </div>
+                <div class="detail-content">
+                  <span class="detail-label">Dirección</span>
+                  <span class="detail-value">Paseo José Fernandez Vega, 43<br>Brenes 41310, Sevilla, España</span>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer light-background">
+    <div class="container">
+      <h3 class="sitename">Joel Ruiz</h3>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://www.linkedin.com/in/joel-jos%C3%A9-ruiz-marcote-b8b716395/"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/JoelRuiz06"><i class="bi bi-github"></i></a>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <span>Copyright</span> <strong class="px-1 sitename">Joel Ruiz</strong> <span>Todos los derechos reservados</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
