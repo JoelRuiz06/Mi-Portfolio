@@ -46,7 +46,7 @@ Está diseñado con una estructura responsive para adaptarse correctamente a mó
   
 - LinkedIn: https://www.linkedin.com/in/joel-jos%C3%A9-ruiz-marcote-b8b716395/
 
-\- GitHub: https://github.com/JoelRuiz06
+- GitHub: https://github.com/JoelRuiz06
 
 
 
