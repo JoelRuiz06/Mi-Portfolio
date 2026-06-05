@@ -1,4 +1,4 @@
-\# Portfolio Profesional - Joel Ruiz
+# Portfolio Profesional - Joel Ruiz
 
 
 
@@ -6,7 +6,7 @@ Portfolio digital personal creado con \*\*Bootstrap 5\*\*, \*\*HTML\*\*, \*\*CSS
 
 
 
-\## Descripción
+## Descripción
 
 
 
@@ -18,33 +18,33 @@ Está diseñado con una estructura responsive para adaptarse correctamente a mó
 
 
 
-\## Secciones del portfolio
+## Secciones del portfolio
 
 
 
-\- Hero / presentación.
+- Hero / presentación.
 
-\- Sobre mí.
+- Sobre mí.
 
-\- Resumen profesional.
+- Resumen profesional.
 
-\- Habilidades.
+- Habilidades.
 
-\- Portfolio de proyectos.
+- Portfolio de proyectos.
 
-\- Servicios.
+- Servicios.
 
-\- Contacto.
-
-
-
-\## Contacto
+- Contacto.
 
 
 
-\- Email: `joelruizm06@gmail.com`
+## Contacto
 
-\- LinkedIn: https://www.linkedin.com/in/joel-jos%C3%A9-ruiz-marcote-b8b716395/
+
+
+- Email: joelruizm06@gmail.com
+  
+- LinkedIn: https://www.linkedin.com/in/joel-jos%C3%A9-ruiz-marcote-b8b716395/
 
 \- GitHub: https://github.com/JoelRuiz06
 
